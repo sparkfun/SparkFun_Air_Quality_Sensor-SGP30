@@ -18580,7 +18580,6 @@ pullup resistors from the I2C bus</text>
 <wire x1="109.22" y1="93.98" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="91.44" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="96.52" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
-<junction x="109.22" y="96.52"/>
 <wire x1="111.76" y1="91.44" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
 <junction x="109.22" y="91.44"/>
 <junction x="109.22" y="93.98"/>
