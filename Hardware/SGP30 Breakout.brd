@@ -3822,12 +3822,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="12.7" y1="16.51" x2="12.7" y2="18.288" width="0.2032" layer="1"/>
 <wire x1="13.97" y1="18.63" x2="14.07" y2="18.73" width="0.2032" layer="1"/>
 <wire x1="14.07" y1="18.73" x2="15.51" y2="18.73" width="0.2032" layer="1"/>
-<wire x1="15.748" y1="11.303" x2="15.367" y2="10.922" width="0.2032" layer="1"/>
+<wire x1="15.748" y1="11.176" x2="15.494" y2="10.922" width="0.2032" layer="1"/>
 <wire x1="14.31523125" y1="10.922" x2="14.06123125" y2="11.176" width="0.2032" layer="1"/>
 <wire x1="14.06123125" y1="11.176" x2="11.75" y2="11.176" width="0.2032" layer="1"/>
-<wire x1="15.748" y1="12.192" x2="15.748" y2="11.303" width="0.2032" layer="1"/>
-<wire x1="15.367" y1="10.922" x2="14.31523125" y2="10.922" width="0.2032" layer="1"/>
-<wire x1="11.75" y1="10.1901" x2="15.24" y2="9.232" width="0" layer="19" extent="1-1"/>
+<wire x1="15.748" y1="12.192" x2="15.748" y2="11.176" width="0.2032" layer="1"/>
+<wire x1="15.494" y1="10.922" x2="15.24" y2="10.922" width="0.2032" layer="1"/>
+<wire x1="15.24" y1="10.922" x2="14.31523125" y2="10.922" width="0.2032" layer="1"/>
+<wire x1="15.24" y1="9.232" x2="15.24" y2="10.922" width="0.1778" layer="1"/>
 </signal>
 <signal name="LSDA">
 <contactref element="Q1" pad="2"/>
