@@ -2697,8 +2697,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-1.778" y="2.159" size="0.6096" layer="25" ratio="20">&gt;NAME</text>
+<text x="-1.778" y="-2.794" size="0.6096" layer="27" ratio="20">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -3554,7 +3554,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="DIO-00819" x="3.175" y="6.096" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="3.175" y="5.461" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U2" library="SparkFun-IC-Power" package="SOT23-5" value="AP2112K" x="12.7" y="8.89" smashed="yes">
+<element name="U2" library="SparkFun-IC-Power" package="SOT23-5" value="3.3V" x="12.7" y="8.89" smashed="yes">
 <attribute name="NAME" x="10.795" y="8.89" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="VREG-12457" x="12.7" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="3.3V" x="15.24" y="8.89" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -3822,12 +3822,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="12.7" y1="16.51" x2="12.7" y2="18.288" width="0.2032" layer="1"/>
 <wire x1="13.97" y1="18.63" x2="14.07" y2="18.73" width="0.2032" layer="1"/>
 <wire x1="14.07" y1="18.73" x2="15.51" y2="18.73" width="0.2032" layer="1"/>
-<wire x1="15.748" y1="11.303" x2="15.367" y2="10.922" width="0.2032" layer="1"/>
+<wire x1="15.748" y1="11.176" x2="15.494" y2="10.922" width="0.2032" layer="1"/>
 <wire x1="14.31523125" y1="10.922" x2="14.06123125" y2="11.176" width="0.2032" layer="1"/>
 <wire x1="14.06123125" y1="11.176" x2="11.75" y2="11.176" width="0.2032" layer="1"/>
-<wire x1="15.748" y1="12.192" x2="15.748" y2="11.303" width="0.2032" layer="1"/>
-<wire x1="15.367" y1="10.922" x2="14.31523125" y2="10.922" width="0.2032" layer="1"/>
-<wire x1="11.75" y1="10.1901" x2="15.24" y2="9.232" width="0" layer="19" extent="1-1"/>
+<wire x1="15.748" y1="12.192" x2="15.748" y2="11.176" width="0.2032" layer="1"/>
+<wire x1="15.494" y1="10.922" x2="15.24" y2="10.922" width="0.2032" layer="1"/>
+<wire x1="15.24" y1="10.922" x2="14.31523125" y2="10.922" width="0.2032" layer="1"/>
+<wire x1="15.24" y1="9.232" x2="15.24" y2="10.922" width="0.1778" layer="1"/>
 </signal>
 <signal name="LSDA">
 <contactref element="Q1" pad="2"/>
